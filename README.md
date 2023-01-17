@@ -27,7 +27,7 @@ Esse método consistem em atribuir um numero inteiro exclusivo para cada categor
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
 ### Método One-hot encoder
-Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.
+Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
 ### MULTICOLINEARIDADE
@@ -37,4 +37,5 @@ Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.
         - VIF = 1 : Menos multicolinearidade
         - VIF < 5 : multicolinearidade moderada
         - VIF > 5 : multicolinearidade extrema (isso que devemos evitar)
-   * Para evitar esse problema uma das variáveis dummies deve ser descartada, para isso iremos usar a função abaixo para medir o nível de pontuação VIF:
+   * Para evitar esse problema algumas das variáveis dummies deve ser descartada, para isso usaremos a função para medir o nível de pontuação VIF:<br>
+<a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver a função no código fonte. </a><br>

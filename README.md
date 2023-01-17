@@ -24,3 +24,15 @@ Vamos ver cada uma delas:
 
 ### Método Label Encoder
 Esse método consistem em atribuir um numero inteiro exclusivo para cada categoria com base na ordem alfabética.<br>
+
+### Método One-hot encoder
+Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.
+
+### MULTICOLINEARIDADE
+
+   * O One-Hot encode resulta em dummie variable trap, (armadilha das variáveis fictícias) onde as variáveis podem ficar altamente correlacionadas ocasionando o problema de multicolinearidade, que é quando a ligação entre elas são tão fortes que uma fica ligada diretamente a outra influenciando na nossa predição. <br>
+   * Tabela de medição multicolinearidade (VIF, variance inflation factor)
+        - VIF = 1 : Menos multicolinearidade
+        - VIF < 5 : multicolinearidade moderada
+        - VIF > 5 : multicolinearidade extrema (isso que devemos evitar)
+   * Para evitar esse problema uma das variáveis dummies deve ser descartada, para isso iremos usar a função abaixo para medir o nível de pontuação VIF:

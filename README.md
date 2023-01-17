@@ -22,17 +22,23 @@ Para converter os dados em variáveis Dummies existem alguns métodos que podemo
 
 Vamos ver cada uma delas:
 
-### Método Label Encoder
+## Método Label Encoder
 Esse método consistem em atribuir um numero inteiro exclusivo para cada categoria com base na ordem alfabética.<br>
+<a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
-### Método One-hot encoder
-Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.
+## Método One-hot encoder
+Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s para representar cada variável categórica.<br>
+<a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
-### MULTICOLINEARIDADE
+## MULTICOLINEARIDADE
 
    * O One-Hot encode resulta em dummie variable trap, (armadilha das variáveis fictícias) onde as variáveis podem ficar altamente correlacionadas ocasionando o problema de multicolinearidade, que é quando a ligação entre elas são tão fortes que uma fica ligada diretamente a outra influenciando na nossa predição. <br>
    * Tabela de medição multicolinearidade (VIF, variance inflation factor)
         - VIF = 1 : Menos multicolinearidade
         - VIF < 5 : multicolinearidade moderada
         - VIF > 5 : multicolinearidade extrema (isso que devemos evitar)
-   * Para evitar esse problema uma das variáveis dummies deve ser descartada, para isso iremos usar a função abaixo para medir o nível de pontuação VIF:
+   * Para evitar esse problema algumas das variáveis dummies deve ser descartada, para isso usaremos a função para medir o nível de pontuação VIF:<br>
+<a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver a função no código fonte. </a><br>
+
+## Dica:
+O Pandas tem uma função (GET_DUMMIES) que automáticamente converte variaveis categóricas usando o método One-hot encoder, no código fonte deste projeto deixei comentado essa função do Pandas, ela facilita e agiliza a conversão.

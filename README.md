@@ -14,5 +14,13 @@ Categórico: Representádo por algo que não é numérico:
    * Nominal: sexo - masculino e feminino (não há hierarquia)
    * Ordinal: desenvolvedor - junior, pleno, senior (há hierarquia)
 
+# Conversão de dados categóricos em váriáveis Dummies
+Para converter os dados em variáveis Dummies existem alguns métodos que podemos usar e facilitar nossa vida, como:
 
- 
+   * Método Label Encoder
+   * Método One-hot Encoder
+
+Vamos ver cada uma delas:
+
+### Método Label Encoder
+Esse método consistem em atribuir um numero inteiro exclusivo para cada categoria com base na ordem alfabética.<br>

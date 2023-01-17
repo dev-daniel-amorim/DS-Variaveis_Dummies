@@ -23,12 +23,11 @@ Para converter os dados em variáveis Dummies existem alguns métodos que podemo
 Vamos ver cada uma delas:
 
 ## Método Label Encoder
-<hr>
 Esse método consistem em atribuir um numero inteiro exclusivo para cada categoria com base na ordem alfabética.<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
 ## Método One-hot encoder
-Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.<br>
+Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s para representar cada variável categórica.<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
 ## MULTICOLINEARIDADE

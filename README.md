@@ -22,15 +22,16 @@ Para converter os dados em variáveis Dummies existem alguns métodos que podemo
 
 Vamos ver cada uma delas:
 
-### Método Label Encoder
+## Método Label Encoder
+<hr>
 Esse método consistem em atribuir um numero inteiro exclusivo para cada categoria com base na ordem alfabética.<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
-### Método One-hot encoder
+## Método One-hot encoder
 Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s.<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver exemplo no código fonte. </a><br>
 
-### MULTICOLINEARIDADE
+## MULTICOLINEARIDADE
 
    * O One-Hot encode resulta em dummie variable trap, (armadilha das variáveis fictícias) onde as variáveis podem ficar altamente correlacionadas ocasionando o problema de multicolinearidade, que é quando a ligação entre elas são tão fortes que uma fica ligada diretamente a outra influenciando na nossa predição. <br>
    * Tabela de medição multicolinearidade (VIF, variance inflation factor)

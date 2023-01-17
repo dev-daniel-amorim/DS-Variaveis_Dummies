@@ -39,3 +39,6 @@ Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s para 
         - VIF > 5 : multicolinearidade extrema (isso que devemos evitar)
    * Para evitar esse problema algumas das variáveis dummies deve ser descartada, para isso usaremos a função para medir o nível de pontuação VIF:<br>
 <a href='https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb'> Clique aqui para ver a função no código fonte. </a><br>
+
+## Dica:
+O Pandas tem uma função (GET_DUMMIES) que automáticamente converte variaveis categóricas usando o método One-hot encoder, no código fonte deste projeto deixei comentado essa função do Pandas, ela facilita e agiliza a conversão.

@@ -42,3 +42,11 @@ Esse metodo separa cada categoria por coluna, criando uma matriz de 0 e 1s para 
 
 ## Dica:
 O Pandas tem uma função (GET_DUMMIES) que automáticamente converte variaveis categóricas usando o método One-hot encoder, no código fonte deste projeto deixei comentado essa função do Pandas, ela facilita e agiliza a conversão.
+
+# Notebook
+[Clique aqui para ver o notebook dessa aula](https://github.com/dev-daniel-amorim/DS-Variaveis_Dummies/blob/main/Label%20e%20one-hot%20encoder.ipynb)
+
+<br>
+<hr>
+
+[<< Voltar para página inicial](https://github.com/dev-daniel-amorim)
